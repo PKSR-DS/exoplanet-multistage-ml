@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Task 2 — Exoplanet Characterization (UH MSc Final Project)
-Author: <your name> | Student ID: 23089117
+Author: Praveen Kumar Savariraj | Student ID: 23089117
 """
 
 # ========= 1) Imports & Settings =========
@@ -619,3 +619,4 @@ print(ethics_note)
 
 print("\n[DONE] Task 2 completed with anti-leak fixes and readable EDA.")
 print(f"Outputs folder: {OUT_DIR}")
+
