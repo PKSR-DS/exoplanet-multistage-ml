@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Task 5: Space Probe Decision (zero-arg, T1 scoped to multi_run folder)
-- T2 & T3 pinned to your exact files
+- T2 & T3 pinned exact files
 - T1 auto-picks ONLY from the given multi_run path
 - T4 auto-picks from Output/Task4
 - Fixed TypeError in score_planet_type (and safer fallback in habitability)
@@ -15,11 +15,11 @@ import numpy as np
 # ---------------- User-specific constants ----------------
 OUTPUT_ROOT = r"D:/UH One drive/OneDrive - University of Hertfordshire/Output"
 
-# Pin Task 2 & Task 3 EXACT files (no auto-pick)
+# Pin Task 2 & Task 3 EXACT files
 DEFAULT_T2_FILE = r"D:/UH One drive/OneDrive - University of Hertfordshire/Output/Task2/run_20250826_104658/task2_characterization_with_kepid_kepid_mapped.csv"
 DEFAULT_T3_FILE = r"D:/UH One drive/OneDrive - University of Hertfordshire/Output/Task3/run_20250826_125617/csv/task3_habitability_with_predictions__with_kepid.csv"
 
-# Restrict Task 1 auto-pick to THIS folder (your request)
+# Restrict Task 1 auto-pick to THIS folder
 T1_SEARCH_ROOT = r"D:/UH One drive/OneDrive - University of Hertfordshire/Output/Task1/multi_run_20250825_094156"
 
 # Weights and options
@@ -310,3 +310,4 @@ def run_pipeline():
 if __name__ == "__main__":
     out_root = ensure_dir(os.path.join(OUTPUT_ROOT, "Task5", f"run_{ts()}"))
     run_pipeline()
+
