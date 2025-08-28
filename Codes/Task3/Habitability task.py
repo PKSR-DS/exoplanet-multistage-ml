@@ -1,7 +1,7 @@
 r"""
 Task 3 — Habitability Classification (Rebuild)
 Datasets: Planetary Systems, Stellar Hosts, Atmospheres (20_08_25)
-Author: <your name + Student ID>
+Author: Praveen Kumar Savariraj, 23089117
 Module: 7PAM2002 (UH MSc Data Science) — Final Project
 
 Purpose
@@ -33,12 +33,6 @@ Ethics & Data Provenance (for report)
 - Cite NASA Exoplanet Archive per their guidelines in the report. Include license/usage terms.
 - Computational sustainability: We prefer tree models with moderate complexity; avoid heavy deep learning here.
 
-Viva reminders
-==============
-- Be prepared to explain: (1) feature choices (planetary + stellar), (2) why we used stratified CV,
-  (3) thresholds for rule‑based labels (drawn from common exoplanetary heuristics),
-  (4) how ROC/PR curves are computed in multi‑class via one‑vs‑rest,
-  (5) SHAP interpretation for LightGBM/RandomForest.
 """
 
 # =========================
@@ -79,7 +73,7 @@ except Exception:
     LGBM_AVAILABLE = False
 
 # -------------------------
-# Paths (EDIT if needed)
+# Paths
 # -------------------------
 BASE_DATA_PATH = r"D:\UH One drive\OneDrive - University of Hertfordshire\Final Project\Data\20_08_25"
 OUTPUT_BASE    = r"D:\UH One drive\OneDrive - University of Hertfordshire\Output\Task3"
@@ -586,3 +580,4 @@ print("- Figures →", FIG_DIR)
 print("- CSVs    →", CSV_DIR)
 print("- Models  →", MODEL_DIR)
 print("\nIf you see unrealistically high metrics, check for leakage (e.g., duplicate targets, overlapping rows after split).")
+
