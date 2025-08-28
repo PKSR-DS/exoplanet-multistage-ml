@@ -15,13 +15,8 @@ What this script does (overview):
 7) Exports predictions + probabilities and a Streamlit/Task‑5 ready dashboard pack
 8) Saves EVERYTHING to a timestamped run folder for reproducibility, incl. environment versions
 
-Viva notes:
-- All titles and axis labels for EDA are human‑readable via a shared pretty() mapper.
-- Group splitting + leakage checks explain why we avoid 1.0 metrics.
-- Hyperparameter tuning is intentionally small to keep compute reasonable but demonstrative.
-- LightGBM is optional: script will skip cleanly if not installed.
 
-Author: YOU (commit to your repo; keep weekly commits; annotate choices inline)
+Author: Praveen Kumar Savariraj
 """
 from __future__ import annotations
 
@@ -701,3 +696,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
