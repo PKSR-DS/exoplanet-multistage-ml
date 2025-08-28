@@ -3,9 +3,7 @@
 Add Kepler ID (kepid) to Task 3 files using KOI Cumulative CSV (NO retraining).
 - Uses kepid + (kepler_name / kepoi_name / koi_name) from KOI CSV
 - Matches to Task 3 by planet name (pl_name / planet_name / kepler_name)
-- Writes <name>__with_kepid.csv next to each source file + an unmatched list.
-
-Edit the paths below and run.
+- Write name__with_kepid.csv next to each source file + an unmatched list.
 """
 
 import os
@@ -127,3 +125,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
