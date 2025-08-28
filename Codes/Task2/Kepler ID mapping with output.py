@@ -2,7 +2,7 @@ import os, re
 import pandas as pd
 import numpy as np
 
-# --- paths (yours) ---
+# --- paths  ---
 t2_path  = r"D:\UH One drive\OneDrive - University of Hertfordshire\Output\Task2\run_20250826_104658\task2_characterization_with_kepid.csv"
 koi_path = r"D:\UH One drive\cumulative_2025.07.16_10.28.33.csv"
 
@@ -77,4 +77,5 @@ out.to_csv(out_path, index=False)
 print(f"[OK] Wrote: {out_path}")
 mapped = int(out["kepid"].notna().sum()) if "kepid" in out.columns else 0
 print(f"[INFO] Rows: {len(out)} | rows with kepid: {mapped} | unique kepid: {out['kepid'].nunique(dropna=True)}")
+
 
