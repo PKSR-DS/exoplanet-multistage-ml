@@ -1,6 +1,6 @@
 """
 Task 4 — Radio Silence Prediction (Risk Scoring + Optional Model Distillation)
-Author: <Your Name> (Student ID: 23089117)
+Author: Praveen Kumar Savariraj (Student ID: 23089117)
 Module: 7PAM2002 (UH MSc Data Science) — Final Project
 
 Overview
