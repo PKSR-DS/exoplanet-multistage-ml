@@ -1,0 +1,19 @@
+{
+  "model": "V3_SE",
+  "threshold_primary": 0.7999999999999999,
+  "threshold_precision_first": 0.85,
+  "threshold_recall_first": 0.05,
+  "chosen_threshold": 0.7999999999999999,
+  "train_seconds": 1441.21,
+  "accuracy": 0.9700078346880815,
+  "precision": 0.941501014198783,
+  "recall": 0.8703217580439511,
+  "f1": 0.9045132122534882,
+  "roc_auc": 0.9866827738281784,
+  "pr_auc": 0.9623990293753393,
+  "brier": 0.03922895299029286,
+  "science_confirmed_in_test": 208,
+  "science_recovered": 196,
+  "science_missed": 12,
+  "science_recovery_rate": 0.9423076923076923
+}
