@@ -1,0 +1,9 @@
+{
+  "python": "3.12.3",
+  "tensorflow": "2.19.0",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "sklearn": "scikit-learn",
+  "gpu": [],
+  "seed": 42
+}
