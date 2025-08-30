@@ -1,0 +1,7 @@
+{
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1",
+  "lightgbm": "4.6.0"
+}
