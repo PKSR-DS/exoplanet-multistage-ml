@@ -1,0 +1,28 @@
+{
+  "t2_file": "D:/UH One drive/OneDrive - University of Hertfordshire/Output/Task2/run_20250826_104658/task2_characterization_with_kepid_kepid_mapped.csv",
+  "t3_file": "D:/UH One drive/OneDrive - University of Hertfordshire/Output/Task3/run_20250826_125617/csv/task3_habitability_with_predictions__with_kepid.csv",
+  "t1_file_used": "D:/UH One drive/OneDrive - University of Hertfordshire/Output/Task1/multi_run_20250825_094156\\all_predictions_merged.csv",
+  "t4_file_used": "D:/UH One drive/OneDrive - University of Hertfordshire/Output\\Task4\\run_20250826_213438\\task4_radio_silence_scores.csv",
+  "weights": {
+    "w_det": 0.35,
+    "w_hab": 0.35,
+    "w_typ": 0.15,
+    "w_rad": 0.15
+  },
+  "topk": 50,
+  "dedup": "max",
+  "meta": {
+    "type": {
+      "type_col": "planet_type_rule"
+    },
+    "habitability": {
+      "label_col": "habitability_label_rule"
+    },
+    "detection": {
+      "source_conf": "y_prob"
+    },
+    "radio": {
+      "bin_col": "Radio_Silent"
+    }
+  }
+}
