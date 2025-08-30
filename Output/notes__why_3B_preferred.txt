@@ -1,0 +1,9 @@
+Why 3B is preferred
+---------------------
+• 3B uses StratifiedGroupKFold and a group-aware holdout split so the same planet/system never
+  appears in both train and test → reduces optimistic leakage.
+• 3B excludes direct rule-driving features (radius, mass, equilibrium temp/insolation, eccentricity).
+  This forces the model to learn *signals beyond the hand-crafted rule*, improving credibility.
+• Scores in 3B are typically lower than 3A but *honest* and more likely to generalise to new planets.
+• Confusion matrices and PR/ROC curves for 3B give a more meaningful picture of class trade-offs,
+  especially for minority classes.
