@@ -1,0 +1,7 @@
+Ethics & Reproducibility (Task 2):
+• Data sources: NASA Exoplanet Archive derivatives (Planetary Systems, Stellar Hosts, Atmospheres).
+• Non-personal astronomical data — GDPR not applicable to individuals; complies with UH ethics (no human data).
+• Stored securely in OneDrive + versioned code on GitHub; outputs timestamped for reproducibility.
+• Bias awareness: detection/confirmation biases in exoplanet catalogues can skew class distributions; macro-F1 used.
+• Sustainability: classical ML (RF/GBM) keeps compute modest; report training time where relevant.
+• Molecule predictions are exploratory proxies; real inference needs spectroscopic retrieval.
