@@ -1,0 +1,13 @@
+{
+  "rows_used": 82229,
+  "classes": {
+    "Super-Earth": 29140,
+    "Jupiter-like": 22695,
+    "Neptune-like": 22585,
+    "Earth-like": 7809
+  },
+  "used_stratify": true,
+  "n_features_full": 125,
+  "n_features_ablated": 97,
+  "dropped_cols_count": 28
+}
