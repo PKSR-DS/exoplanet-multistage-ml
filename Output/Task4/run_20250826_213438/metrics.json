@@ -1,0 +1,29 @@
+{
+  "features": [
+    "fpp_prob",
+    "fpp_fp_components_sum",
+    "pp_host_rel_prob",
+    "pp_1hi_rel_prob",
+    "pp_2hi_rel_prob",
+    "pp_unk_rel_prob",
+    "fpp_ror",
+    "fpp_steff"
+  ],
+  "metrics": {
+    "test_roc_auc": 0.9846316396119488,
+    "test_pr_auc": 0.9564068040092055,
+    "test_f1": 0.844776119402985,
+    "confusion_matrix": [
+      [
+        929,
+        28
+      ],
+      [
+        76,
+        283
+      ]
+    ]
+  },
+  "threshold_0p75": 0.6606315896878756,
+  "rows": 6579
+}
