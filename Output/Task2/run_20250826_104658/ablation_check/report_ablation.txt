@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+  Earth-like      1.000     1.000     1.000      1562
+Jupiter-like      0.998     0.999     0.999      4539
+Neptune-like      0.999     0.999     0.999      4517
+ Super-Earth      0.999     0.999     0.999      5828
+
+    accuracy                          0.999     16446
+   macro avg      0.999     0.999     0.999     16446
+weighted avg      0.999     0.999     0.999     16446
