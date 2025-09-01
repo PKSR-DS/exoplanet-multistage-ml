@@ -1,0 +1,10 @@
+{
+  "weights": {
+    "w_det": 0.35,
+    "w_hab": 0.35,
+    "w_typ": 0.15,
+    "w_rad": 0.15
+  },
+  "topk": 50,
+  "dedup": "max"
+}
