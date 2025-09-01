@@ -1,0 +1,12 @@
+Codes/
+  Streamlit/  -> streamlit_app_mission_control_pro_v3.5.py
+  Task 1/     -> CNN V1–V4 + calibration utilities
+  Task2/      -> characterisation + ID mapping + leakage ablation
+  Task3/      -> habitability + calibration + ID mapping
+  Task4/      -> radio silence + decision threshold
+  Task5/      -> probe decision + weight sensitivity
+Output/       -> per-task results + summary CSVs
+Datasets/     -> README about data + tiny samples (no large raw data)
+Docs/         -> ethics note + figure_gallery used in FPR
+configs/      -> JSON configs (paths, weights, options)
+scripts/      -> helper launchers (run_all_tasks.py)
