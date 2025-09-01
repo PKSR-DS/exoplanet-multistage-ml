@@ -1,0 +1,27 @@
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.venv/
+.env
+
+# Data / large models
+Datasets/raw/
+Datasets/cache/
+*.fits
+*.npy
+*.keras
+*.h5
+*.joblib
+*.pkl
+
+# Outputs (keep small CSV/PNGs, ignore heavy artefacts)
+Output/**/models/
+Output/**/tmp/
