@@ -1,0 +1,16 @@
+{
+  "data_roots": {
+    "kepler_preprocessed": "D:\\UH One drive\\Kepler_Preprocessed",
+    "filtered_tables": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Final Project\\Data\\Filtered"
+    "20_08_25":"D:\UH One drive\OneDrive - University of Hertfordshire\Final Project\Data\20_08_25"
+  },
+  "koi_map": "D:\\UH One drive\\cumulative_2025.07.16_10.28.33.csv",
+  "output_root": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Output",
+  "task_outputs": {
+    "task1": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Output\\Task1",
+    "task2": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Output\\Task2",
+    "task3": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Output\\Task3",
+    "task4": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Output\\Task4",
+    "task5": "D:\\UH One drive\\OneDrive - University of Hertfordshire\\Output\\Task5"
+  }
+}
