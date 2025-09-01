@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Exoplanet Multi-Stage ML (Kepler) — Tasks 1–5"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - Last-names: Savariraj
+    given-names: Praveen Kumar
+repository-code: "https://github.com/PKSR-DS/exoplanet-multistage-ml"
+version: "1.0.0-fpr"
+date-released: "2025-08-28"
