@@ -1,0 +1,47 @@
+task,model_or_stage,metric,value,notes
+Task1,V1_Plain,F1,0.8893,from comparison charts
+Task1,V2_Residual,F1,0.8414,from comparison charts
+Task1,V3_SE,accuracy,0.9700,summary.md
+Task1,V3_SE,precision,0.9415,summary.md
+Task1,V3_SE,recall,0.8703,summary.md
+Task1,V3_SE,F1,0.9045,summary.md
+Task1,V3_SE,ROC_AUC,0.9867,summary.md
+Task1,V3_SE,PR_AUC,0.9624,summary.md
+Task1,V3_SE,Brier,0.03923,summary.md
+Task1,V3_SE,science_confirmed,208,test set count
+Task1,V3_SE,science_recovered,196,summary.md
+Task1,V3_SE,science_missed,12,summary.md
+Task1,V3_SE,science_recovery_rate,0.9423,summary.md
+Task1,V4_CBAM,accuracy,0.96598,metrics.json
+Task1,V4_CBAM,precision,0.93482,metrics.json
+Task1,V4_CBAM,recall,0.85090,metrics.json
+Task1,V4_CBAM,F1,0.890887,metrics.json
+Task1,V4_CBAM,ROC_AUC,0.985787,metrics.json
+Task1,V4_CBAM,PR_AUC,0.956780,metrics.json
+Task1,V4_CBAM,Brier,0.045805,metrics.json
+Task1,V4_CBAM,science_confirmed,208,metrics.json
+Task1,V4_CBAM,science_recovered,192,metrics.json
+Task1,V4_CBAM,science_missed,16,metrics.json
+Task1,V4_CBAM,science_recovery_rate,0.92308,metrics.json
+Task2,RF_tuned,accuracy,1.0000,classification_report_rf_tuned.csv
+Task2,RF_tuned,macro_f1,1.0000,classification_report_rf_tuned.csv
+Task2,LogReg_baseline,accuracy,0.5528,classification_report_baseline_logreg.csv
+Task2,LogReg_baseline,macro_f1,0.5486,classification_report_baseline_logreg.csv
+Task2,Regression_eq_temp,cv_r2,0.9990,regression_cv_metrics.json / learning curve
+Task2,Regression_mass_earth,cv_r2,0.9880,regression_cv_metrics.json / learning curve
+Task2,Molecules_multilabel,f1_micro,0.7127,molecule_multilabel_scores.json
+Task2,Molecules_multilabel,f1_macro,0.4296,molecule_multilabel_scores.json
+Task3,LGBM_best,accuracy,1.0000,confusion-matrix images (perfect diagonal)
+Task3,LGBM_best,macro_f1,1.0000,confusion-matrix images (perfect diagonal)
+Task3,RF_best,macro_f1,0.9990,cm_RF_best.png (near-perfect)
+Task3,LogReg,cv_f1,0.9360,learning_curve_logreg.png (CV)
+Task4,LogReg,ROC_AUC,0.985,metrics.json / roc_curve.png
+Task4,LogReg,PR_AUC,0.956,metrics.json / pr_curve.png
+Task4,LogReg,F1,0.845,metrics.json
+Task4,LogReg,threshold,0.661,Task 4 — Decision threshold.py
+Task4,LogReg,TN,929,errors_test_split.csv
+Task4,LogReg,FP,28,errors_test_split.csv
+Task4,LogReg,FN,76,errors_test_split.csv
+Task4,LogReg,TP,283,errors_test_split.csv
+Task5,Decision,topk,50,task5_config.json
+Task5,Decision,weights,0.35/0.35/0.15/0.15,w_det/w_hab/w_typ/w_rad in task5_config.json
