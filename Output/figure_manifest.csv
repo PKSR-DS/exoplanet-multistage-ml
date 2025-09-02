@@ -1,40 +1,37 @@
 figure_path,title,caption,used_in_section
-Output/Task1/multi_run_20250825_094156/compare_roc_auc.png,ROC AUC comparison (V1–V4),"V3_SE leads with ≈0.987; robust separation across variants.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/compare_pr_auc.png,PR AUC comparison (V1–V4),"V3_SE best with ≈0.962; high precision at high recall.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/compare_f1.png,F1 comparison (V1–V4),"V3_SE highest F1≈0.905; Residual lowest ≈0.841.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/compare_brier.png,Calibration (Brier) comparison,"V3_SE best Brier≈0.039; V4_CBAM ≈0.046.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/compare_science_recovery_rate.png,Science recovery rate,"V3_SE recovers 196/208 confirmed (≈94.2%).",Task 1 Results
-Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/cm.png,Confusion matrix (V3_SE),"Strong diagonal; minor FN vs FP trade-off.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/roc.png,ROC curve (V3_SE),"AUROC≈0.987.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/pr.png,PR curve (V3_SE),"AUPR≈0.962.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/reliability.png,Calibration curve (V3_SE),"Probabilities well-calibrated after thresholding.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/lc_acc.png,Learning curve (accuracy),"Stable training; no overfit.",Task 1 Results
-Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/lc_loss.png,Learning curve (loss),"Monotonic decrease; convergence by final epoch.",Task 1 Results
-Output/Task2/run_20250826_104658/clf_confusion_matrix_rf.png,Planet type CM (RF tuned),"Perfect diagonal; see leakage audit note.",Task 2 Results
-Output/Task2/run_20250826_104658/clf_pr_curve_rf.png,PR curves (planet type, RF),"AP≈1.0 per class; strong separation.",Task 2 Results
-Output/Task2/run_20250826_104658/clf_feature_importances_rf.png,Feature importances (RF),"Mass and eq. temp dominate; photometry secondary.",Task 2 Results
-Output/Task2/run_20250826_104658/clf_shap_summary_rf.png,SHAP summary (RF),"Global feature effects consistent with importances.",Task 2 Results
-Output/Task2/run_20250826_104658/eda_correlation_heatmap.png,Planetary correlations,"Moderate rade↔mass; eq. temp↔insolation ≈0.58.",Data & EDA
-Output/Task2/run_20250826_104658/eda_missingness_top40.png,Missingness (top 40),"Atmospheres heavy missingness; some planetary core fields.",Data & EDA
-Output/Task2/run_20250826_104658/eda_numeric_histograms.png,Numeric distributions,"Skewed; log-like spreads for orbit/insolation.",Data & EDA
+Output/Task1/multi_run_20250825_094156/compare_roc_auc.png,ROC AUC comparison (V1–V4),"V3_SE highest (~0.987), strong separation.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/compare_pr_auc.png,PR AUC comparison (V1–V4),"V3_SE best (~0.962).",Task 1 Results
+Output/Task1/multi_run_20250825_094156/compare_f1.png,F1 comparison (V1–V4),"V3_SE ~0.905; V2 lowest ~0.841.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/compare_brier.png,Brier comparison,"V3_SE lowest (~0.039) → best calibration.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/compare_science_recovery_rate.png,Science recovery rate,"Recovered ≈94% of confirmed planets.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/cm.png,Confusion matrix (V3_SE),"High TP; shallow transits drive FNs.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/roc.png,ROC curve (V3_SE),"AUROC ≈ 0.987.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/pr.png,PR curve (V3_SE),"AUPR ≈ 0.962.",Task 1 Results
+Output/Task1/multi_run_20250825_094156/best_model_analysis_V3_SE/figs/reliability.png,Calibration curve (V3_SE),"Well-calibrated after tuning.",Task 1 Results
+Output/Task2/run_20250826_104658/clf_confusion_matrix_rf.png,Planet type CM (RF tuned),"Perfect diagonal; leakage caveat noted.",Task 2 Results
+Output/Task2/run_20250826_104658/clf_pr_curve_rf.png,PR curves (planet type, RF),"AP ~1.0 per class.",Task 2 Results
+Output/Task2/run_20250826_104658/clf_feature_importances_rf.png,Feature importances (RF),"Mass & eq. temp dominate.",Task 2 Results
+Output/Task2/run_20250826_104658/clf_shap_summary_rf.png,SHAP summary (RF),"Global attributions consistent with importances.",Task 2 Results
+Output/Task2/run_20250826_104658/eda_correlation_heatmap.png,Correlation heatmap,"Radius–mass ≈0.45; temp–insolation ≈0.58.",Data & EDA
+Output/Task2/run_20250826_104658/eda_missingness_top40.png,Missingness (top 40),"Atmospheres have heavy gaps.",Data & EDA
+Output/Task2/run_20250826_104658/eda_numeric_histograms.png,Numeric histograms,"Skewed distributions; log-like periods.",Data & EDA
 Output/Task2/run_20250826_104658/eda_molecules_top20.png,Top-20 molecules,"TiO, H, H2O dominate counts.",Task 2 Results
-Output/Task2/run_20250826_104658/molecule_multilabel_pr_curves.png,Molecule multilabel PR,"AP high for TiO (~0.97), H (~0.84), H2O (~0.70).",Task 2 Results
-Output/Task2/run_20250826_104658/reg_learning_curve_eq_temp.png,Learning curve (eq. temp reg.),"CV R² → ≈0.999 at max size.",Task 2 Results
-Output/Task2/run_20250826_104658/reg_learning_curve_mass_earth.png,Learning curve (mass reg.),"CV R² → ≈0.985–0.99.",Task 2 Results
-Output/Task3/run_20250826_171930/figures/cm_LGBM_best.png,Habitability CM (LGBM best),"Perfect diagonal across 3 classes.",Task 3 Results
-Output/Task3/run_20250826_171930/figures/cm_RF_best.png,Habitability CM (RF best),"Near-perfect; tiny NH→H(P) leakage.",Task 3 Results
+Output/Task2/run_20250826_104658/molecule_multilabel_pr_curves.png,Molecule multilabel PR,"AP: TiO~0.97, H~0.84, H2O~0.70.",Task 2 Results
+Output/Task2/run_20250826_104658/reg_learning_curve_eq_temp.png,Learning curve (eq. temp reg.),"CV R² → ~0.999.",Task 2 Results
+Output/Task2/run_20250826_104658/reg_learning_curve_mass_earth.png,Learning curve (mass reg.),"CV R² → ~0.985–0.99.",Task 2 Results
+Output/Task3/run_20250826_171930/figures/cm_LGBM_best.png,Habitability CM (LGBM best),"Perfect separation.",Task 3 Results
+Output/Task3/run_20250826_171930/figures/cm_RF_best.png,Habitability CM (RF best),"Near-perfect diagonal.",Task 3 Results
 Output/Task3/run_20250826_171930/figures/pr_LGBM_base.png,PR curves (habitability, LGBM),"Near-vertical at high precision.",Task 3 Results
 Output/Task3/run_20250826_171930/figures/roc_LGBM_base.png,ROC curves (habitability, LGBM),"AUROC ≈ 1.0 per class.",Task 3 Results
-Output/Task3/run_20250826_171930/figures/lgbm_shap_summary.png,SHAP summary (LGBM),"Radius & mass strongest; insolation/orbit secondary.",Task 3 Results
-Output/Task3/run_20250826_171930/figures/rf_feature_importances.png,RF importances,"`pl_rade`/`pl_bmasse` dominate; stellar terms minor.",Task 3 Results
-Output/Task4/run_20250826_213438/roc_curve.png,Radio-silence ROC,"AUROC≈0.98; chosen threshold≈0.66.",Task 4 Results
-Output/Task4/run_20250826_213438/pr_curve.png,Radio-silence PR,"AP≈0.96; good precision across recall.",Task 4 Results
+Output/Task3/run_20250826_171930/figures/lgbm_shap_summary.png,SHAP summary (LGBM),"Radius & mass strongest drivers.",Task 3 Results
+Output/Task3/run_20250826_171930/figures/rf_feature_importances.png,RF importances,"pl_rade/pl_bmasse dominate.",Task 3 Results
+Output/Task4/run_20250826_213438/roc_curve.png,Radio-silence ROC,"AUROC ≈ 0.985.",Task 4 Results
+Output/Task4/run_20250826_213438/pr_curve.png,Radio-silence PR,"AUPR ≈ 0.956.",Task 4 Results
 Output/Task4/run_20250826_213438/risk_hist.png,Composite risk histogram,"Well-separated score distribution.",Task 4 Results
-Output/Task4/run_20250826_213438/eda_fpp_prob_hist.png,FPP probability histogram,"Right-skewed; tail near high risk.",Data & EDA
-Output/Task4/run_20250826_213438/eda_pp_host_rel_prob_hist.png,Host-relative prob histogram,"Central mass with long tail.",Data & EDA
-Output/Task4/run_20250826_213438/fairness_risk_by_steff_quartile.png,Fairness by Teff quartile,"Comparable risk across quartiles.",Fairness
-Output/Task4/run_20250826_213438/fairness_risk_by_steff_quartile_alt.png,Fairness (alt view),"Consistent trend check.",Fairness
-Output/Task5/pair_scatter__default.png,Pair scatter (default weights),"Score interactions; base setting.",Task 5 Results
-Output/Task5/priority_hist__default.png,Priority histogram (default),"Distribution of final target priority.",Task 5 Results
-Output/Task5/pair_scatter__comms_heavy.png,Pair scatter (comms-heavy),"Sensitivity to radio-silence weight.",Task 5 Results
-Output/Task5/priority_hist__comms_heavy.png,Priority histogram (comms-heavy),"Shift under radio-heavy weights.",Task 5 Results
+Output/Task4/run_20250826_213438/eda_fpp_prob_hist.png,FPP probability histogram,"Right-skew; small high-risk tail.",Data & EDA
+Output/Task4/run_20250826_213438/eda_pp_host_rel_prob_hist.png,Host-relative prob histogram,"Central mass with tail.",Data & EDA
+Output/Task4/run_20250826_213438/fairness_risk_by_steff_quartile.png,Fairness by Teff quartile,"All groups AUROC > 0.97.",Fairness
+Output/Task5/pair_scatter__default.png,Pair scatter (default weights),"Score interactions under defaults.",Task 5 Results
+Output/Task5/priority_hist__default.png,Priority histogram (default),"Final priority distribution.",Task 5 Results
+Output/Task5/pair_scatter__comms_heavy.png,Pair scatter (comms-heavy),"Sensitivity to radio-weight.",Task 5 Results
+Output/Task5/priority_hist__comms_heavy.png,Priority histogram (comms-heavy),"Shift under comms-heavy config.",Task 5 Results
