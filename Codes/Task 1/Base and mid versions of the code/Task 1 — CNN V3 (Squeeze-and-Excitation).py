@@ -1,8 +1,6 @@
 # ==============================================
 # Task 1 — CNN V3 (Squeeze-and-Excitation)
-# Authorship & Academic Integrity
 # - Prepared by: Praveen Kumar Savariraj
-# - AI assistance: initial drafting and refactoring support from GPT-5
 # - I reviewed, modified, tested, and take responsibility for this code.
 # - Cite datasets: NASA Exoplanet Archive KOI Cumulative Table; Kepler light curves (preprocessed .npy).
 # ==============================================
@@ -158,4 +156,5 @@ if __name__=="__main__":
         all_df.to_csv(allp,index=False)
     else: agg.to_csv(allp,index=False)
     print(f"[OK] Updated {allp}")
+
 
